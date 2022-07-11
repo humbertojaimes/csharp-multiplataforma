@@ -1,0 +1,47 @@
+﻿@page "/fetchdata"
+@inject SpeakersApiClient.SpeakersApiClient SpeakersClient
+@using DTOs;
+
+<PageTitle>Speakers</PageTitle>
+
+<h1>Speakers</h1>
+
+<p>This component demonstrates fetching data from the server.</p>
+
+@if (speakers == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Photo</th>
+                <th>Id</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var speaker in speakers)
+            {
+                <tr>
+                    <td><img src="@speaker.PhotoUrl" width="100" height="100" /></td>
+                    <td>@speaker.Id</td>
+                    <td>@speaker.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<Speaker>? speakers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        speakers = (await SpeakersClient.Get()).Data;
+    }
+
+}
+

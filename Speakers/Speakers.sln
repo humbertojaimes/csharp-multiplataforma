@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTOs", "DTOs\DTOs.csproj", "{E1CCADE9-9519-4E48-9E4D-0DF149C91FD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakersAPI", "SpeakersAPI\SpeakersAPI.csproj", "{6DA60A24-CAA9-4838-82F4-ADD6B806D959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakersBot", "SpeakersBot\SpeakersBot.csproj", "{B65073CD-B285-43A3-B9F6-1ED98EFB1D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakersApp", "SpeakersApp\SpeakersApp.csproj", "{FC6E0415-E44C-4EB3-9CD4-A214F648C1CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakersWeb", "SpeakersWeb\SpeakersWeb.csproj", "{00E50EC3-40DC-464F-90FC-9BA379A283E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakersData", "SpeakersData\SpeakersData.csproj", "{FAF7A33D-10C6-4FFB-9BF9-090CC78D9EF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpeakersApiClient", "SpeakersApiClient\SpeakersApiClient.csproj", "{218CEB2F-862B-48C2-B1D7-F1793CF25D7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1CCADE9-9519-4E48-9E4D-0DF149C91FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CCADE9-9519-4E48-9E4D-0DF149C91FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CCADE9-9519-4E48-9E4D-0DF149C91FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CCADE9-9519-4E48-9E4D-0DF149C91FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DA60A24-CAA9-4838-82F4-ADD6B806D959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DA60A24-CAA9-4838-82F4-ADD6B806D959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DA60A24-CAA9-4838-82F4-ADD6B806D959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DA60A24-CAA9-4838-82F4-ADD6B806D959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B65073CD-B285-43A3-B9F6-1ED98EFB1D24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B65073CD-B285-43A3-B9F6-1ED98EFB1D24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B65073CD-B285-43A3-B9F6-1ED98EFB1D24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B65073CD-B285-43A3-B9F6-1ED98EFB1D24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC6E0415-E44C-4EB3-9CD4-A214F648C1CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6E0415-E44C-4EB3-9CD4-A214F648C1CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6E0415-E44C-4EB3-9CD4-A214F648C1CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6E0415-E44C-4EB3-9CD4-A214F648C1CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E50EC3-40DC-464F-90FC-9BA379A283E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E50EC3-40DC-464F-90FC-9BA379A283E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E50EC3-40DC-464F-90FC-9BA379A283E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E50EC3-40DC-464F-90FC-9BA379A283E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF7A33D-10C6-4FFB-9BF9-090CC78D9EF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF7A33D-10C6-4FFB-9BF9-090CC78D9EF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF7A33D-10C6-4FFB-9BF9-090CC78D9EF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF7A33D-10C6-4FFB-9BF9-090CC78D9EF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218CEB2F-862B-48C2-B1D7-F1793CF25D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218CEB2F-862B-48C2-B1D7-F1793CF25D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218CEB2F-862B-48C2-B1D7-F1793CF25D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218CEB2F-862B-48C2-B1D7-F1793CF25D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AFEFC95-E00B-4C2A-A17D-EC41D488A32E}
+	EndGlobalSection
+EndGlobal
